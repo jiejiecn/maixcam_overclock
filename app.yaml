@@ -1,0 +1,14 @@
+id: overclock
+name: Overclock
+name[zh]: 超频控制
+version: 1.2.0
+icon: assets/icon.png
+author: Jason.Shi
+desc: CPU / NPU overclock and thermal monitor for MaixCAM Pro
+desc[zh]: MaixCAM Pro CPU / NPU 超频与芯片温度监控
+files:
+  - main.py
+  - assets/icon.png
+  - assets/modules/mpll_freq.ko
+  - assets/modules/npu_freq.ko
+  - README.md
